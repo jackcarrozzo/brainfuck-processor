@@ -27,6 +27,10 @@ chip properly. Doing so however would require more clock
 cycles for fetching and setting... not that this is at 
 all a performance-driven project ;-)
 
+* How do I run this?
+	Just say 'make'. It will build, simulate, then 
+open the wave viewer for you.
+
 * TODOs:
 	- Write the opcode handlers for [ and ]
 	- Move the odd RAM code into the processor so
