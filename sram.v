@@ -22,6 +22,10 @@ reg [7:0] instr;
 
 reg [7:0] mem [0:1023];
 
+//initial begin
+//	$readmemh("helloworld.mem",mem);
+//end
+
 always @(posedge clk)
 	begin	
 		if (memwrite) mem[dataptr]=datain;
